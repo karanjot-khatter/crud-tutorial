@@ -21,6 +21,11 @@
 
     <div class="row">
         <div class="col-md-5 mx-auto">
+            <?php
+                include 'model.php';
+                $model = new Model();
+                $insert = $model->insert();
+            ?>
             <form action="" method="post">
                 <div class="form-group">
                     <label for="">Name</label>
@@ -28,15 +33,15 @@
                 </div>
                 <div class="form-group">
                     <label for="">Email</label>
-                    <input type="email" name="name" class="form-control">
+                    <input type="email" name="email" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="">Mobile No.</label>
-                    <input type="text" name="name" class="form-control">
+                    <input type="text" name="mobile" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="">Address</label>
-                    <textarea type="address" name="name" cols="" rows="3" class="form-control"></textarea>
+                    <textarea type="address" name="address" cols="" rows="3" class="form-control"></textarea>
                 </div>
                 <div class="form-group">
                     <button type="submit" name="submit" class="btn btn-primary">Submit</button>
