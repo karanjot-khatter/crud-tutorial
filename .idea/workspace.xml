@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f508c16-dad9-4340-9ee0-468ba16d1e7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/records.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/model.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +47,38 @@
       <option name="presentableId" value="Default" />
       <updated>1626710192869</updated>
       <workItem from="1626710195066" duration="842000" />
-      <workItem from="1626716803207" duration="1543000" />
+      <workItem from="1626716803207" duration="1792000" />
+      <workItem from="1626774874942" duration="1842000" />
+      <workItem from="1626800626609" duration="599000" />
+      <workItem from="1627386094808" duration="19000" />
+      <workItem from="1627471621194" duration="4579000" />
     </task>
+    <task id="LOCAL-00001" summary="insert data into the database using mysqli">
+      <created>1626718522883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626718522883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="insert data into the database using mysqli" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert data into the database using mysqli" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/model.php</url>
+          <line>101</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
